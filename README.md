@@ -17,8 +17,12 @@
 
 ---
 
-| Icon                                                                               | Name                                  | Demo                                                      | Repository                                                 |
-| ---------------------------------------------------------------------------------- | ------------------------------------- | --------------------------------------------------------- | ---------------------------------------------------------- |
+<div align="center">
+
+|                                        Icon                                        |                  Name                 |                            Demo                           |                         Repository                         |
+| :--------------------------------------------------------------------------------: | :-----------------------------------: | :-------------------------------------------------------: | :--------------------------------------------------------: |
 | <img src="https://egu1832.github.io/obsidian-to-github-md/favicon.ico" width="24"> | Obsidian to GitHub Markdown Converter | [Visit](https://egu1832.github.io/obsidian-to-github-md/) | [GitHub](https://github.com/egu1832/obsidian-to-github-md) |
-| <img src="https://egu1832.github.io/dual-pdf-viewer/favicon.ico" width="24">       | Dual PDF Viewer                       | [Visit](https://egu1832.github.io/dual-pdf-viewer/)       | [GitHub](https://github.com/egu1832/dual-pdf-viewer)       |
+|    <img src="https://egu1832.github.io/dual-pdf-viewer/favicon.ico" width="24">    |            Dual PDF Viewer            |    [Visit](https://egu1832.github.io/dual-pdf-viewer/)    |    [GitHub](https://github.com/egu1832/dual-pdf-viewer)    |
+
+</div>
 
