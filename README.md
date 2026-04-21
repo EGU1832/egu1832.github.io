@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://egu1832.github.io/">
-    <img src="https://raw.githubusercontent.com/EGU1832/EGU1832/main/profile_v2.png" alt="EGU1832's Static Webpages" width="180" height="180" style="border-radius: 20px;">
+    <img src="icon.png" alt="EGU1832's Static Webpages" width="180" height="180" style="border-radius: 20px;">
   </a>
 </p>
 
