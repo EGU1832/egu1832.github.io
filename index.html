@@ -1,14 +1,142 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Projects</title>
-  <link rel="icon" href="/favicon.ico">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EGU1832 Projects</title>
+  <link rel="icon" href="favicon.ico" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0b0d0b;
+      color: #f2f3f1;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      color: #8fa393;
+      font-size: 13px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .desc {
+      margin-top: 10px;
+      color: #cbd5ce;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .divider {
+      height: 1px;
+      margin: 40px 0;
+      background: linear-gradient(to right, transparent, #4f6f58, transparent);
+    }
+
+    .card {
+      background: #111712;
+      border: 1px solid rgba(79,111,88,0.4);
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: 0.2s;
+    }
+
+    .card:hover {
+      background: #16201a;
+      transform: translateY(-2px);
+    }
+
+    .card-title {
+      font-size: 18px;
+      color: #e2efe4;
+      margin-bottom: 6px;
+    }
+
+    .card-desc {
+      font-size: 13px;
+      color: #c3d2c7;
+      margin-bottom: 12px;
+    }
+
+    .links a {
+      display: inline-block;
+      margin-right: 10px;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      text-decoration: none;
+      color: #d6e4da;
+      border: 1px solid rgba(79,111,88,0.7);
+    }
+
+    .links a:hover {
+      background: #18251c;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 12px;
+      color: #9aa69c;
+      border-top: 1px solid rgba(79,111,88,0.4);
+      padding-top: 10px;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Projects</h1>
-  <ul>
-    <li><a href="/dual-pdf-viewer/">Dual PDF Viewer</a></li>
-    <li><a href="/obsidian-to-github-md/">Obsidian to GitHub Markdown Converter</a></li>
-  </ul>
+  <div class="container">
+
+    <p class="subtitle">Portfolio</p>
+    <h1>EGU1832 Static Webpages</h1>
+
+    <p class="desc">
+      A collection of non-interactive static webpages deployed via GitHub Pages.<br>
+      Each project can be accessed through the links below.
+    </p>
+
+    <div class="divider"></div>
+
+    <!-- Project 1 -->
+    <div class="card">
+      <div class="card-title">Obsidian → GitHub Markdown Converter</div>
+      <div class="card-desc">
+        Convert Obsidian Markdown into GitHub-style rendering with LaTeX and code highlighting.
+      </div>
+      <div class="links">
+        <a href="/obsidian-to-github-md/">Live Demo</a>
+        <a href="https://github.com/EGU1832/obsidian-to-github-md" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="card">
+      <div class="card-title">Dual PDF Viewer</div>
+      <div class="card-desc">
+        Compare two PDFs side-by-side with synchronized scrolling and zoom controls.
+      </div>
+      <div class="links">
+        <a href="/dual-pdf-viewer/">Live Demo</a>
+        <a href="https://github.com/EGU1832/dual-pdf-viewer" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+    <footer>
+      © 2026 EGU1832 — Static pages powered by GitHub Pages
+    </footer>
+
+  </div>
 </body>
 </html>
