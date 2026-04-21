@@ -1,1 +1,1 @@
-# egu1832.github.io
+# egu1832's static web pages
